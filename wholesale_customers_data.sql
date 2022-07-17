@@ -1,3 +1,5 @@
+USE lab_unsupervised_learning;
+
 CREATE TABLE IF NOT EXISTS `wholesale_customers_data` (
     `Channel` INT,
     `Region` INT,
@@ -450,3 +452,5 @@ INSERT INTO wholesale_customers_data VALUES
 (2,3,14531,15488,30243,437,14841,1867),
 (1,3,10290,1981,2232,1038,168,2125),
 (1,3,2787,1698,2510,65,477,52);
+
+select * from wholesale_customers_data
