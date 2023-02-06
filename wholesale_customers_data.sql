@@ -1,3 +1,6 @@
+CREATE SCHEMA wholesale_customer;
+USE wholesale_customer;
+
 CREATE TABLE IF NOT EXISTS `wholesale_customers_data` (
     `Channel` INT,
     `Region` INT,
