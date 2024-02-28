@@ -1,3 +1,6 @@
+
+CREATE DATABASE IF NOT EXISTS lab_customers_data;
+USE lab_customers_data;
 CREATE TABLE IF NOT EXISTS `wholesale_customers_data` (
     `Channel` INT,
     `Region` INT,
